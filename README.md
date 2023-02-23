@@ -12,7 +12,7 @@ You can change the branch to see different way I used to achieve my objective.
 In the project directory, you can run:
 
 - see the branch remote : git branch -r
- -choose a branch : git checkout ReactClassComponent
+- choose a branch : git checkout ReactClassComponent
 
 - install dependencies :npm install
 - run server : npm start
