@@ -1,15 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react';
+import { Grid } from '@mui/material';
+import VideoItem from './VideosItem';
 
-import { Grid } from '@mui/material'
+const VideoList = ({ videos, onVideoSelect }) => {
+  const listOfVideos = videos.map((video, id) => (
+    <VideoItem onVideoSelect={onVideoSelect} key={id} video={video} />
+  ));
 
-import VideoItem from './VideosItem'
+  return <Grid container spacing={10}>{listOfVideos}</Grid>;
+};
 
-const VideoList = ({videos, onVideoSelect}) => {
-  const listOfVideos = videos.map((video, id)=> <VideoItem onVideoSelect={onVideoSelect} key={id} video={video} />)
-  return (
-    <Grid container spacing={10} >
-      {listOfVideos}
-    </Grid>
-    );
-}
- export default VideoList
+export default VideoList;
