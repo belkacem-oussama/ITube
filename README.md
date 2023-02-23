@@ -6,6 +6,17 @@ You can change the branch to see different way I used to achieve my objective.
 
 ## How to start ?
 
+- clone the project with : git clone [SSH link]
+- go to the prohect's directory : cd ITube
+
 In the project directory, you can run:
-npm start
-Runs the app in the development mode.
+
+- see the branch remote : git branch -r
+ -choose a branch : git checkout ReactClassComponent
+
+- install dependencies :npm install
+- run server : npm start
+
+- Enjoy :call_me_hand:
+
+
