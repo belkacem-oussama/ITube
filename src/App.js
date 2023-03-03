@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Grid } from "@mui/material";
 import { SearchBar, VideoDetail, VideoList } from "./components";
 import youtube from "./api/youtube";
+import Test from "./components/tets";
+import Test_2 from "./components/test2";
 
 const App = () => {
   const [videos, setVideos] = useState([]);
@@ -27,6 +29,8 @@ const App = () => {
 
   return (
     <Grid justify="center" container spacing={2}>
+      <Test />
+      <Test_2 />
       <Grid item xs={12}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
