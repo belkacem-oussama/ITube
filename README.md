@@ -1,18 +1,24 @@
-# Getting Started with Create React App
+Here is a little project created with the Youtube API : Itube.
 
 Here is a little project created with the Youtube API : Itube.
 
+
 Tech : React, Material UI
 
-## Available Scripts
+You can change the branch to see different way I used to achieve my objective.
+
+## How to start ?
+
+- clone the project with : ```git clone [SSH link]```
+- go to the project's directory : ```cd ITube```
 
 In the project directory, you can run:
 
-### `npm start`
+- see the branch remote : ```git branch -r```
+- choose a branch : ```git checkout ReactClassComponent```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- install dependencies : ```npm install```
+- run server : ```npm start```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Enjoy :call_me_hand:
 
