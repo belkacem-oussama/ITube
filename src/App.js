@@ -4,6 +4,7 @@ import { SearchBar, VideoDetail, VideoList } from "./components";
 import youtube from "./api/youtube";
 import Test from "./components/tets";
 import Test_2 from "./components/test2";
+import Test_3 from "./components/test3";
 
 const App = () => {
   const [videos, setVideos] = useState([]);
@@ -31,6 +32,7 @@ const App = () => {
     <Grid justify="center" container spacing={2}>
       <Test />
       <Test_2 />
+      <Test_3 />
       <Grid item xs={12}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
