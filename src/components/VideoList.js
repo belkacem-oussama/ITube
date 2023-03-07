@@ -7,7 +7,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
     <VideoItem onVideoSelect={onVideoSelect} key={id} video={video} />
   ));
 
-  return <Grid container spacing={10}>{listOfVideos}</Grid>;
+  return <Grid container spacing={10} >{listOfVideos}</Grid>;
 };
 
 export default VideoList;

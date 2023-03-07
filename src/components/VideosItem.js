@@ -5,7 +5,15 @@ const VideoItem = ({ video, onVideoSelect }) => {
   return (
     <Grid item xs={12}>
       <Paper
-        style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}
+        style={{ 
+          display: 'flex', 
+          alignItems: 'center', 
+          cursor: 'pointer', 
+          backgroundColor:'#38598b', 
+          color:'#e7eaf6', 
+          borderRadius: '10px' 
+        }}
+
         onClick={() => onVideoSelect(video)}
       >
         <img

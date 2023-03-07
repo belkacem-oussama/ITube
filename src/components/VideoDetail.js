@@ -2,7 +2,7 @@ import React from 'react';
 import { Paper, Typography } from '@mui/material';
 
 const VideoDetails = ({ video }) => {
-  if (!video) return <div>Loading...</div>;
+  if (!video) return <div></div>;
 
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
@@ -16,17 +16,12 @@ const VideoDetails = ({ video }) => {
           style={{ height: '100%', width: '100%' }}
         />
       </Paper>
-      <Paper elevation={6} style={{ padding: '15px' }}>
-        <Typography variant="subtitle1">
+        <Typography variant="subtitle1" style={{color:'#e7eaf6' , margin: '20px'}}>
           {video.snippet.title} - {video.snippet.channelTitle}
         </Typography>
-        <Typography variant="subtitle2">
+        <Typography variant="subtitle2" style={{color:'#e7eaf6', margin: '20px'}}>
           {video.snippet.channelTitle}
         </Typography>
-        <Typography variant="subtitle2">
-          {video.snippet.description}
-        </Typography>
-      </Paper>
     </React.Fragment>
   );
 };
